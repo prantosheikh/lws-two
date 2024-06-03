@@ -10,8 +10,7 @@ import {
 
 const reducer = (state = initailState, action) => {
 	switch (action.type) {
-		case state:
-			break;
+		case ADDED:
 
 		default:
 			break;
