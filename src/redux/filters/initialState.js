@@ -1,6 +1,6 @@
 const initialState = [
    {
-      status: All,
+      status: "All",
       colors: []
    }
 ]
