@@ -47,6 +47,9 @@ const reducer = (state = initailState, action) => {
 		case COLORSELECTED:
 			return state.filter((todo) => todo.id !== action.payload);
 
+		case DELETED:
+			return state.filter((todo) => todo.id !== action.payload);
+
 		case ALLCOMPLETED:
 			return state.map((todo) => {
 				return {
@@ -54,6 +57,10 @@ const reducer = (state = initailState, action) => {
 					completed: true,
 				};
 			});
+
+		case CLEARCOMPLETED:
+			return state.filter((todo) => todo.completed);
+
 			break;
 
 		default:
