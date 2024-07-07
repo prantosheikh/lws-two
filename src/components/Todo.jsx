@@ -45,7 +45,7 @@ export default function Todo({ todo }) {
 					color === "red" && " bg-red-500"
 				}`}
 			></div>
-
+			<p>this</p>
 			<img
 				src={cancelImage}
 				className="flex-shrink-0 w-4 h-4 ml-2 cursor-pointer"
