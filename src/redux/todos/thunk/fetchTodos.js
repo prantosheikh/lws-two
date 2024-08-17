@@ -8,5 +8,5 @@ const fetchTodos = async (dispatch,) => {
 };
 
 
-export default fetchTodos
+export default fetchTodos;
 
