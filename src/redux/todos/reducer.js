@@ -1,4 +1,5 @@
 import {
+   LOADED,
    ADDED,
    ALLCOMPLETED,
    CLEARCOMPLETED,
@@ -15,6 +16,8 @@ const nextTodoId = (todos) => {
 
 const reducer = (state = initialState, action) => {
    switch (action.type) {
+      case LOADED:
+         return action.payload
       case ADDED:
          return [
             ...state,
