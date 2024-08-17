@@ -1,0 +1,14 @@
+{
+	"name": "lws-json-server-todos",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "json-server --watch db_todos.json --no-cors true --port 9000"
+	},
+	"keywords": [],
+	"author": "Sheib Ali, Learn with Sumit",
+	"dependencies": {
+		"json-server": "^1.0.0-beta.1"
+	}
+}
